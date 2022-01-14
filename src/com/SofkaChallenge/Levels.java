@@ -15,6 +15,7 @@ public class Levels {
     //Methods
 
     public void levelUp(){
+        //Increase the level when the user enter a correct answer
         this.setCurrentLevel(getCurrentLevel() + 1);
     }
 

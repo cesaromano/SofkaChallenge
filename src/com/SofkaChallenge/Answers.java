@@ -141,6 +141,7 @@ public class Answers {
     //methods
 
     public String showAnswers(){
+        //Show the answers to the question in a randomized way
         switch (level){
             case (1):
                 this.setCorrectAnsw(getLevel1().get(randNumb).get(0));
@@ -192,6 +193,7 @@ public class Answers {
     }
 
     public boolean testAnswer(int userAnsw){
+        //Test the user answer
         if (level == 1){
             return getLevel1().get(randNumb).get(userAnsw).equals(correctAnsw);
         } else if (level == 2) {

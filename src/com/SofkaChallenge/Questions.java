@@ -59,6 +59,7 @@ public class Questions {
     //Methods
 
     public String getQ(){
+        //Deliver a random question according to the user level
         switch (level){
             case (1):
                 this.setQuestion(getLevel1().get(this.randNumb));

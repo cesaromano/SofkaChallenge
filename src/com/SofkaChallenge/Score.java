@@ -15,7 +15,7 @@ public class Score {
     //Methods
 
     public void increaseScore(){
-
+        //Increase the score when the user enter a correct answer
         if (score == 0){
             this.setScore(1000);
         } else {
